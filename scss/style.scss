@@ -1,0 +1,150 @@
+@import 'global';
+// Шапка сайта
+.header {
+    background-color: #fcdb00;
+    padding-top: 60px;
+    padding-bottom: 105px;
+}
+.menu {
+    .menu__list {
+        a {
+            color: #010101;
+            font-weight: 700;
+            font-size: 22px;
+            text-decoration: none;
+        }
+        & + .menu__list {
+            margin-left: 60px;
+        }
+    }
+}
+.offer {
+    margin-top: 130px;
+}
+.offer__title {
+    margin-bottom: 23px;
+    h1{
+        font-size: 32px;
+    }
+}
+.offer__intro {
+    font-size: 20px;
+    color: #313841;
+    margin-bottom: 40px;
+    width: 90%;
+}
+.offer__text {
+    margin-bottom: 40px;
+    p {
+        font-size: 16px;
+        color: #555555;
+        width: 75%;
+    }
+}
+.offer__icons {
+    ul {
+        li {
+            i {
+                font-size: 42px;
+            }
+            & + li {
+                margin-left: 38px;
+            }
+        }
+    }
+}
+.ipad {
+    margin-top: 70px;
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+// Конец шапки сайта
+// Вторая секция, особенности TinyOne
+.features__main {
+    padding-top: 100px;
+    text-align: center;
+    .features__main-title {
+        font-size: 32px;
+    }
+    .features__main-text {
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto 60px;
+    }
+}
+.features__item {
+    margin-bottom: 60px;
+    .features__item-icon {
+        i {
+            font-size: 50px;
+            line-height: 52px;
+        }
+    }
+    .features__item-content {
+        margin-left: 35px;
+        h3 {
+            font-size: 22px;
+            line-height: 24px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 20px;
+            color: #898989;
+        }
+    }
+}
+// Конец второй секции, особенности TinyOne
+// Третья секция, сваязь с TinyOne
+.touch {
+    background-color: #010101;
+}
+.touch__main-title {
+    color: #fcdb00;
+}
+.touch__main-text {
+    color: #898989;
+}
+.form {
+    text-align: center;
+    .form__input {
+        background-color: #fff;
+        font-size: 16px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
+        border-radius: 5px;
+        width: 580px;
+        padding: 15px;
+        border: 0;
+    }
+    .form__btn {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+        background-color: #fcdb00;
+        color: #010101;
+        text-transform: uppercase;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 0;
+        width: 126px;
+        padding: 15px 0;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}
+// Конец третьей секции, связи TinyOne
+// Подвал сайта
+.footer {
+    background-color: #010101;
+    .footer__inner {
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        padding: 50px 0 90px;
+        width: 184px;
+        margin: 0 auto;
+    }
+}
+@import 'media';
